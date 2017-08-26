@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "hosts" : {
+      "path" : ""
+    }
+  },
+  "apache2": {
+    "CakePHP": {
+      "repository": "cakephp/app",
+      "DocumentRoot": "webroot"
+    },
+    "Laravel": {
+      "repository": "laravel/laravel",
+      "DocumentRoot": "public"
+    },
+    "Slim": {
+      "repository": "slim/framework",
+      "DocumentRoot": ""
+    },
+    "Yii": {
+      "repository": "",
+      "DocumentRoot": ""
+    },
+    "Yii2": {
+      "repository": "",
+      "DocumentRoot": ""
+    },
+    "Zend": {
+      "repository": "",
+      "DocumentRoot": ""
+    }
+  },
+  "nGinx": {
+  },
+  "vagrant": {
+    "boxes": {
+      "CakePHP": "ironbone/cakephp",
+      "Laravel": "homestead/laravel",
+      "Slim": "",
+      "Yii": "",
+      "Yii2": "",
+      "Zend": ""
+    }
+  },
+  "doker": {
+    "CakePHP": "ironbone/cakephp",
+    "Laravel": "homestead/laravel",
+    "Slim": "",
+    "Yii": "",
+    "Yii2": "",
+    "Zend": ""
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "kield-01/a2hoster-php-core",
+    "description": "A2hoster PHP Core",
+    "type": "Library",
+    "require": {
+        "symfony/var-dumper": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Kozin",
+            "email": "romanko95.rk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
